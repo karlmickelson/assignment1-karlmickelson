@@ -4,7 +4,7 @@
 #                  filesdir searchstr
  
 if [ $# -ne 2 ]
-then
+then   # error statement
    echo wrong number of arguments. must be 2 
    exit 1
 fi

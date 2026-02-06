@@ -11,7 +11,7 @@ fi
 
 mkdir -p $(dirname $1)
 
-echo $2 > $1
+echo $2 > $1   # this writes the file
 
 
 
